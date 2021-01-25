@@ -1,0 +1,22 @@
+public static void faktoriyel(){
+       Scanner scan = new Scanner (System.in);
+       System.out.println("please enter a  number ");
+       int number = scan.nextInt();
+       
+       int faktoriyel = 1;
+       
+      while (number >0){
+          faktoriyel= faktoriyel*number;
+          
+          number --;
+          
+       }
+       System.out.println(faktoriyel);
+   }
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+      faktoriyel();
+    }
+     
+}
