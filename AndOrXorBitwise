@@ -1,0 +1,21 @@
+  public static void main(String[] args) {
+        // TODO code application logic here
+          //Initial values 
+        int a = 34; 
+        int b = 73; 
+  
+        // bitwise and 
+        // 0101 & 0111=0101 = 5 
+        System.out.println("a&b = " + (a & b)); 
+  
+        // bitwise or 
+        // 0101 | 0111=0111 = 7 
+        System.out.println("a|b = " + (a | b)); 
+  
+        // bitwise xor 
+        // 0101 ^ 0111=0010 = 2 
+        System.out.println("a^b = " + (a ^ b)); 
+  
+    }
+    
+}
