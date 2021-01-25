@@ -1,0 +1,14 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+       Scanner input = new Scanner(System.in);
+       System.out.println("please enter a degree for fahrenheit");
+       double celsius= input.nextDouble();
+       double fahrenheit =(celsius * 1.8)+32;
+       System.out.println("celsius is" + celsius + "fahrenheit" );
+       
+       
+       
+     
+    }
+    
+}
