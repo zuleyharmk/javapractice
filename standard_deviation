@@ -1,0 +1,45 @@
+public class StandartSapma {
+    public static float standart_sapma(float[] sayi){
+        float toplam =0;
+        float  avg =0;
+      float toplam2=0;
+for (float a :sayi){
+    toplam = toplam +a;
+  
+    
+}
+  avg=(avg+toplam)/sayi.length;
+for (float i=0.0f; i<sayi.length; i++){
+      float fark =(i-avg);
+ toplam2  =toplam2+(float)(Math.pow(i-avg, 2));
+
+   
+}
+   float g= toplam2/sayi.length-1;
+   float karekok=(float)Math.sqrt(g);
+ return karekok;
+} 
+    
+   
+
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+       
+     float []a=new float [6];
+     System.out.println("lutfen hesaplanmasini istediginiz 6 sayi giriniz ");
+     a[0]=scan.nextFloat();
+     a[1]=scan.nextFloat();
+     a[2]=scan.nextFloat();
+     a[3]=scan.nextFloat(); 
+     a[4]=scan.nextFloat();
+     a[5]=scan.nextFloat();
+         
+            System.out.println("standart sapma is = "+standart_sapma(a));
+        }
+        
+    }
+    
+
