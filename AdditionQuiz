@@ -1,0 +1,12 @@
+  public static void main(String[] args) {
+        // TODO code application logic here
+        int number1 = (int)(System.currentTimeMillis()%10);
+        int Number2= (int)(System.currentTimeMillis()/7%10);
+        Scanner input  = new Scanner(System.in);
+        System.out.println("what is"+ number1+ "+" +Number2+ "?");
+        int cevap = input.nextInt();
+        System.out.println("cevap==number1+number2");
+        
+    }
+    
+}
