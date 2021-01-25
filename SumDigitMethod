@@ -1,0 +1,29 @@
+public class SumDigitMethod {
+     public static int  sum(int a ){
+      int toplam=0;
+         do{
+          
+             toplam= toplam+a %10;
+             a = a/10;
+                   
+             
+         }while (a >0);
+       
+  return toplam;
+         
+         
+     }
+     
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner scan = new Scanner (System.in);
+        System.out.println("enter a number ");
+        int number = scan.nextInt();
+       System.out.println(sum(number));
+        
+    }
+    
+}
