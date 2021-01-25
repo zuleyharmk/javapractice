@@ -1,0 +1,27 @@
+ public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        System.out.println("Birinci urun icin adet sayisini ve birim ucretini giriniz ");
+        int adet1= input.nextInt();
+        int birim1=input.nextInt();
+        System.out.println("ikinci urun icin adet sayisini b=ve birm ucretini giriniz ");
+        int adet2 = input.nextInt();
+        int birim2 = input.nextInt();
+       int  fiyat1= (adet1 * birim1);
+       int fiyat2= (adet2 * birim2);
+       if ( fiyat1> fiyat2)
+           System.out.println("birinci urun daha pahali");
+       else 
+        
+          System.out.println("ikinci urun daha pahali");
+      
+       
+           
+       
+        
+        
+        
+        
+    }
+    
+}
